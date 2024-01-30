@@ -14,11 +14,18 @@ return [
         '/_profiler/phpinfo' => [[['_route' => '_profiler_phpinfo', '_controller' => 'web_profiler.controller.profiler::phpinfoAction'], null, null, null, false, false, null]],
         '/_profiler/xdebug' => [[['_route' => '_profiler_xdebug', '_controller' => 'web_profiler.controller.profiler::xdebugAction'], null, null, null, false, false, null]],
         '/_profiler/open' => [[['_route' => '_profiler_open_file', '_controller' => 'web_profiler.controller.profiler::openAction'], null, null, null, false, false, null]],
-        '/contact' => [[['_route' => 'app_contact', '_controller' => 'App\\Controller\\ContactController::index'], null, null, null, false, false, null]],
-        '/cv' => [[['_route' => 'app_cv', '_controller' => 'App\\Controller\\Cv::index'], null, null, null, false, false, null]],
+        '/en2' => [[['_route' => 'app_en2', '_controller' => 'App\\Controller\\En2Controller::index'], null, null, null, false, false, null]],
+        '/en' => [[['_route' => 'app_en', '_controller' => 'App\\Controller\\EnController::index'], null, null, null, false, false, null]],
+        '/form' => [[['_route' => 'form', '_controller' => 'App\\Controller\\FormController::form'], null, null, null, false, false, null]],
         '/' => [[['_route' => 'app_homepage', '_controller' => 'App\\Controller\\HomeController::index'], null, null, null, false, false, null]],
-        '/portfolio' => [[['_route' => 'app_portfolio', '_controller' => 'App\\Controller\\Portfolio::index'], null, null, null, false, false, null]],
-        '/yassir' => [[['_route' => 'app_yassir', '_controller' => 'App\\Controller\\YassirController2::index'], null, null, null, false, false, null]],
+        '/yassir' => [[['_route' => 'app_yassir', '_controller' => 'App\\Controller\\HomeController::moi'], null, null, null, false, false, null]],
+        '/portfolio' => [[['_route' => 'app_portfolio', '_controller' => 'App\\Controller\\HomeController::po'], null, null, null, false, false, null]],
+        '/cv' => [[['_route' => 'app_cv', '_controller' => 'App\\Controller\\HomeController::cv'], null, null, null, false, false, null]],
+        '/contact' => [[['_route' => 'app_contact', '_controller' => 'App\\Controller\\HomeController::cont'], null, null, null, false, false, null]],
+        '/passion' => [
+            [['_route' => 'app_plus', '_controller' => 'App\\Controller\\HomeController::passion'], null, null, null, false, false, null],
+            [['_route' => 'app_passion', '_controller' => 'App\\Controller\\PassionController::index'], null, null, null, false, false, null],
+        ],
     ],
     [ // $regexpList
         0 => '{^(?'

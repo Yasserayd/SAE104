@@ -87,7 +87,7 @@ class __TwigTemplate_0445a9c2d48d28c4fe44f53f6a172e2b extends Template
 
         // line 6
         echo "<body data-aos-easing=\"ease-out-quad\" data-aos-duration=\"700\" data-aos-delay=\"0\">
-            
+\t
 \t<div class=\"container\">
 \t\t<div class=\"row justify-content-center\">
 \t\t\t<div class=\"col-12 col-md-10 col-lg-8 text-center\">
@@ -155,7 +155,7 @@ class __TwigTemplate_0445a9c2d48d28c4fe44f53f6a172e2b extends Template
 \t\t<p>
 \t\t\tFormer des techniciens supérieurs capables de définir, installer, gérer, maintenir, voire commercialiser des systèmes de télécommunications et des réseaux informatiques de touts types.<br>
 
-    \t\t\t- Administrer les réseaux et l’internet
+    \t\t\t- Administrer les réseaux 
     \t\t\t- Connecter les entreprises et les usagers
     \t\t\t- Créer des outils et applications informatiques pour les RT.
 
@@ -180,22 +180,16 @@ class __TwigTemplate_0445a9c2d48d28c4fe44f53f6a172e2b extends Template
 \t\t<div class=\"container\">
 \t\t<div class=\"row justify-content-center\">
 \t\t<div class=\"col-lg-4\">
-\t\t<h1 class=\"fw-bold\">Passions :</h1>
-                    </div>
-\t\t\t\t <div class=\"row\">
-
-                <div class=\"col-lg-4\">
-                    <h2 class=\"fw-bold\">Streaming :</h2>
-                    <p class=\"text-start\">Durant mon temps libre, j'aime partager a ma communauté ma passion pour les jeux vidéos et grace a cette passion j'arrive a généré pas mal de revenues qui me permettent de subvenir a mes propres besoins</p>
-                </div>
-
-
-
-                <div class=\"col-lg-4\">
-                    <h2 class=\"fw-bold\">Football :</h2>
-                    <p class=\"text-start\">Depuis tout petit et grace a mon père , j'ai developpé une trés grosse passion pour le football , j'aime regardé des matchs de foot et même en jouer avec mes amis </p>
-
-                </div>
+\t\t\t
+\t\t\t<a href=\"/passion\" class=\"btn btn-primary lift\">
+\t\t\t\tEn Savoir Plus
+\t\t\t\t<i class=\"fe fe-arrow-right ms-3\"></i>
+\t\t\t</a>
+\t\t\t<a href=\"/en\" class=\"btn btn-primary lift\">
+\t\t\t\tTranslate This Page
+\t\t\t\t<i class=\"fe fe-arrow-right ms-3\"></i>
+\t\t\t</a>
+\t\t
 \t\t\t\t\t\t<a class=\"card-meta\" href=\"/actualites/lancement-du-site-internet\">
 
 \t\t\t\t\t\t
@@ -207,12 +201,12 @@ class __TwigTemplate_0445a9c2d48d28c4fe44f53f6a172e2b extends Template
 
 \t\t\t\t</div>
 \t\t\t\t\t</div>
-\t\t<!-- / .row -->
+\t
         
 \t</div>
-\t<!-- / .container -->
+>
 </section>
-        <!-- SHAPE -->
+       
 <div class=\"position-relative\">
 \t<div class=\"shape shape-bottom shape-fluid-x svg-shim text-dark\">
 \t\t<svg viewBox=\"0 0 2880 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z\" fill=\"currentColor\"></path></svg>
@@ -229,7 +223,7 @@ class __TwigTemplate_0445a9c2d48d28c4fe44f53f6a172e2b extends Template
 
     }
 
-    // line 142
+    // line 136
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -239,7 +233,7 @@ class __TwigTemplate_0445a9c2d48d28c4fe44f53f6a172e2b extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 143
+        // line 137
         echo "    ";
         echo twig_escape_filter($this->env, $this->env->getFunction('encore_entry_script_tags')->getCallable()("home"), "html", null, true);
         echo "
@@ -264,7 +258,7 @@ class __TwigTemplate_0445a9c2d48d28c4fe44f53f6a172e2b extends Template
 
     public function getDebugInfo()
     {
-        return array (  243 => 143,  233 => 142,  89 => 6,  79 => 5,  60 => 3,  37 => 1,);
+        return array (  237 => 137,  227 => 136,  89 => 6,  79 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -275,7 +269,7 @@ class __TwigTemplate_0445a9c2d48d28c4fe44f53f6a172e2b extends Template
 
 {% block body %}
 <body data-aos-easing=\"ease-out-quad\" data-aos-duration=\"700\" data-aos-delay=\"0\">
-            
+\t
 \t<div class=\"container\">
 \t\t<div class=\"row justify-content-center\">
 \t\t\t<div class=\"col-12 col-md-10 col-lg-8 text-center\">
@@ -343,7 +337,7 @@ class __TwigTemplate_0445a9c2d48d28c4fe44f53f6a172e2b extends Template
 \t\t<p>
 \t\t\tFormer des techniciens supérieurs capables de définir, installer, gérer, maintenir, voire commercialiser des systèmes de télécommunications et des réseaux informatiques de touts types.<br>
 
-    \t\t\t- Administrer les réseaux et l’internet
+    \t\t\t- Administrer les réseaux 
     \t\t\t- Connecter les entreprises et les usagers
     \t\t\t- Créer des outils et applications informatiques pour les RT.
 
@@ -368,22 +362,16 @@ class __TwigTemplate_0445a9c2d48d28c4fe44f53f6a172e2b extends Template
 \t\t<div class=\"container\">
 \t\t<div class=\"row justify-content-center\">
 \t\t<div class=\"col-lg-4\">
-\t\t<h1 class=\"fw-bold\">Passions :</h1>
-                    </div>
-\t\t\t\t <div class=\"row\">
-
-                <div class=\"col-lg-4\">
-                    <h2 class=\"fw-bold\">Streaming :</h2>
-                    <p class=\"text-start\">Durant mon temps libre, j'aime partager a ma communauté ma passion pour les jeux vidéos et grace a cette passion j'arrive a généré pas mal de revenues qui me permettent de subvenir a mes propres besoins</p>
-                </div>
-
-
-
-                <div class=\"col-lg-4\">
-                    <h2 class=\"fw-bold\">Football :</h2>
-                    <p class=\"text-start\">Depuis tout petit et grace a mon père , j'ai developpé une trés grosse passion pour le football , j'aime regardé des matchs de foot et même en jouer avec mes amis </p>
-
-                </div>
+\t\t\t
+\t\t\t<a href=\"/passion\" class=\"btn btn-primary lift\">
+\t\t\t\tEn Savoir Plus
+\t\t\t\t<i class=\"fe fe-arrow-right ms-3\"></i>
+\t\t\t</a>
+\t\t\t<a href=\"/en\" class=\"btn btn-primary lift\">
+\t\t\t\tTranslate This Page
+\t\t\t\t<i class=\"fe fe-arrow-right ms-3\"></i>
+\t\t\t</a>
+\t\t
 \t\t\t\t\t\t<a class=\"card-meta\" href=\"/actualites/lancement-du-site-internet\">
 
 \t\t\t\t\t\t
@@ -395,12 +383,12 @@ class __TwigTemplate_0445a9c2d48d28c4fe44f53f6a172e2b extends Template
 
 \t\t\t\t</div>
 \t\t\t\t\t</div>
-\t\t<!-- / .row -->
+\t
         
 \t</div>
-\t<!-- / .container -->
+>
 </section>
-        <!-- SHAPE -->
+       
 <div class=\"position-relative\">
 \t<div class=\"shape shape-bottom shape-fluid-x svg-shim text-dark\">
 \t\t<svg viewBox=\"0 0 2880 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z\" fill=\"currentColor\"></path></svg>
@@ -413,6 +401,6 @@ class __TwigTemplate_0445a9c2d48d28c4fe44f53f6a172e2b extends Template
 {% block javascripts %}
     {{ encore_entry_script_tags('home') }}
 {% endblock %}
-", "home/index.html.twig", "C:\\Users\\userlocal\\Desktop\\SymfonyFinal-main\\templates\\home\\index.html.twig");
+", "home/index.html.twig", "C:\\Users\\userlocal\\Desktop\\SAE104 Yassir\\templates\\home\\index.html.twig");
     }
 }

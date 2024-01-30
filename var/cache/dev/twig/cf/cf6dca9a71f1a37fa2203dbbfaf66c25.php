@@ -155,7 +155,6 @@ border-radius: 1px;
 padding:24px;
 }
 .contener{
-    margin-buttom: 1px;
     text-align: center;
 }
  
@@ -207,7 +206,7 @@ background-size: 10vw 10vh;
 
     }
 
-    // line 120
+    // line 119
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -217,7 +216,7 @@ background-size: 10vw 10vh;
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 121
+        // line 120
         echo "    ";
         echo twig_escape_filter($this->env, $this->env->getFunction('encore_entry_script_tags')->getCallable()("home"), "html", null, true);
         echo "
@@ -242,7 +241,7 @@ background-size: 10vw 10vh;
 
     public function getDebugInfo()
     {
-        return array (  221 => 121,  211 => 120,  89 => 6,  79 => 5,  60 => 3,  37 => 1,);
+        return array (  220 => 120,  210 => 119,  89 => 6,  79 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -321,7 +320,6 @@ border-radius: 1px;
 padding:24px;
 }
 .contener{
-    margin-buttom: 1px;
     text-align: center;
 }
  

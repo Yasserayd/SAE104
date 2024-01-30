@@ -1,0 +1,74 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}A propos de moi ! {% endblock %}
+
+{% block body %}
+<body data-aos-easing="ease-out-quad" data-aos-duration="700" data-aos-delay="0">
+            
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 col-md-10 col-lg-8 text-center">
+
+				
+				<h1 class="display-2 text-black">
+					<u>More About Me</u>
+				</h1>
+			
+				
+
+
+				
+				<a href="/" class="btn btn-primary lift">
+					Revenir a la page d'acceuil
+					<i class="fe fe-arrow-right ms-3"></i>
+				</a>
+
+			</div>
+		</div>
+		
+	</div>
+
+	</div>
+
+</section>
+   
+<section class="pb-8 pt-7 pb-md-11 pt-md-10">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+
+                <h2 class="mb-0">
+					Passions :
+				</h2>
+<p> <strong>
+    Football : <br>
+</strong>
+Football, My Passion! I am an unwavering fan of Real Madrid and I also support the Moroccan national team. Thanks to my father, I discovered this passion at a young age and it has been growing ever since. Football is much more than just a sport to me; it is a source of intense emotions, camaraderie, and pure joy.
+<hr>
+<strong>MMA :</strong><br>
+Mixed Martial Arts (MMA), My Passion! I am an unwavering fan of fighter Mohamed Ali and I support his exceptional talent in the ring. I discovered MMA on my own while browsing Twitter, and since then, I have been fascinated by the intensity and technique of this sport. MMA represents a constant challenge for me, a blend of skill, courage, and discipline. I am inspired by fighters who push their limits and surpass themselves in every battle. 
+<hr>
+<strong>Streaming :</strong><br>
+For over 2 years, I have developed a tremendous passion for streaming on Twitch. In this field, I have met amazing people who have become a part of my daily life, and I am able to support myself independently.
+	</p>
+	<img loading="lazy" width="320" src="{{ asset('https://cdn.discordapp.com/attachments/1173939068917260358/1201861221473587290/IMG_1445.jpg?ex=65cb5b7c&is=65b8e67c&hm=47ceb7f59b030ff73c43930df214fbb054018fcac4d2c724cbd3f42c923e2071&') }}" />
+	<img loading="lazy" width="600" src="{{ asset('https://cdn.discordapp.com/attachments/1173939068917260358/1201861220869869638/IMG_4029.png?ex=65cb5b7c&is=65b8e67c&hm=10ee854cc36f9d9cfdf585992ca711184171a99fc8f181d6889187e107365c3f&') }}" />
+	<img loading="lazy" width="900" src="{{ asset('https://cdn.discordapp.com/attachments/1172187759092445287/1195514743356670022/image.png?ex=65c6b9de&is=65b444de&hm=6e7ecb1502f1a19fd71104b5aac269f461078d7147c7d9cf78860f93fa7a2544&') }}" />
+
+
+
+	
+</section>
+        
+<div class="position-relative">
+	<div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+		<svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path></svg>
+	</div>
+</div>
+
+</body>
+{% endblock %}
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('home') }}
+{% endblock %}

@@ -69,7 +69,7 @@ class __TwigTemplate_adcda24a79a5fcd016b118f65a23bb5d extends Template
         <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
           <ul class=\"navbar-nav me-auto\">
             <li class=\"nav-item\">
-              <a class=\"nav-link active\" href=\"/\">Menu
+              <a class=\"nav-link active\" href=\"/\">E-Portfolio
                 <span class=\"visually-hidden\">(current)</span>
               </a>
             </li>
@@ -82,11 +82,11 @@ class __TwigTemplate_adcda24a79a5fcd016b118f65a23bb5d extends Template
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"/contact\">Me Contacter</a>
             </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"/passion\">En Savoir Plus</a>
+            </li>
           </ul>
-          <form class=\"d-flex\">
-            <input class=\"form-control me-sm-2\" type=\"search\" placeholder=\"Search\">
-            <button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">Search</button>
-          </form>
+
         </div>
       </div>
     </nav>
@@ -239,7 +239,7 @@ class __TwigTemplate_adcda24a79a5fcd016b118f65a23bb5d extends Template
         <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
           <ul class=\"navbar-nav me-auto\">
             <li class=\"nav-item\">
-              <a class=\"nav-link active\" href=\"/\">Menu
+              <a class=\"nav-link active\" href=\"/\">E-Portfolio
                 <span class=\"visually-hidden\">(current)</span>
               </a>
             </li>
@@ -252,11 +252,11 @@ class __TwigTemplate_adcda24a79a5fcd016b118f65a23bb5d extends Template
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"/contact\">Me Contacter</a>
             </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"/passion\">En Savoir Plus</a>
+            </li>
           </ul>
-          <form class=\"d-flex\">
-            <input class=\"form-control me-sm-2\" type=\"search\" placeholder=\"Search\">
-            <button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">Search</button>
-          </form>
+
         </div>
       </div>
     </nav>
